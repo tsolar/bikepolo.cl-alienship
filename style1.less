@@ -1,0 +1,34 @@
+@color_bg: black;
+@color_fg: white;
+
+@fondo_oscurito:  fade(@color_bg, 50%);
+
+.fondo_oscurito {
+    background-color: @fondo_oscurito;
+    color: @color_fg;
+}
+
+article {
+    .fondo_oscurito;
+}
+.tweets {
+    color: @color_fg;
+    h3 {
+        .fondo_oscurito;
+
+        margin: 0;
+    }
+
+    ul {
+        .fondo_oscurito;
+
+        list-style: none;
+        margin: 0;
+        padding: 20px;
+
+
+        li {
+
+        }
+    }
+}

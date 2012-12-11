@@ -1,0 +1,16 @@
+/*
+Theme Name:     Bikepolo.cl
+Theme URI:      http://bikepolo.cl/
+Description:    Child theme for the Alienship theme
+Author:         Tomás Solar Castro
+Author URI:     http://identi.ca/tsolar/
+Template:       alienship
+Version:        0.1.0
+*/
+
+@import url("../alienship/style.css");
+@import url("style1.css"); /* generated with less */
+
+body {
+    background-image: url("images/fondo.jpg");
+}
