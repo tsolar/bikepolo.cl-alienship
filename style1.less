@@ -14,6 +14,17 @@ article {
     .fondo_oscurito;
 }
 
+a {
+    &:hover {
+        color: @color_fg;
+        text-decoration: none;
+    }
+
+    img {
+        width: 98%;
+    }
+}
+
 header {
     hgroup {
         height: 221px;
@@ -49,7 +60,6 @@ header {
             float: left;
 
             span {
-                width: 100%;
                 float: left;
             }
 
@@ -58,4 +68,10 @@ header {
             }
         }
     }
+}
+
+footer.entry-meta {
+    background-color: fade(@color_fg, 80%);
+    border: 0;
+    padding: 0;
 }
