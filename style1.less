@@ -1,27 +1,30 @@
 @color_bg: black;
 @color_fg: white;
 
-@fondo_oscurito:  fade(@color_bg, 50%);
+@fondo-oscurito:  fade(@color_bg, 50%);
 
-.fondo_oscurito {
-    background-color: @fondo_oscurito;
+.fondo-oscurito {
+    background-color: @fondo-oscurito;
     color: @color_fg;
     margin: 0;
     padding: 20px;
 }
 
 article {
-    .fondo_oscurito;
+    .fondo-oscurito;
 }
 
+div.entry-content {
+    a {
+        img {
+            width: 98%;
+        }
+    }
+}
 a {
     &:hover {
         color: @color_fg;
         text-decoration: none;
-    }
-
-    img {
-        width: 98%;
     }
 }
 
@@ -41,13 +44,13 @@ header {
     float: left;
     color: @color_fg;
     h3 {
-        .fondo_oscurito;
+        .fondo-oscurito;
 
         padding: 0 20px;
     }
 
     ul {
-        .fondo_oscurito;
+        .fondo-oscurito;
 
         padding-top: 0;
         list-style: none;
