@@ -20,6 +20,9 @@ header {
         background-image: url("images/cabecera.png");
         background-repeat: no-repeat;
         background-position: center center;
+        h1, h2 {
+            display: none;
+        }
     }
 }
 
@@ -35,16 +38,23 @@ header {
     ul {
         .fondo_oscurito;
 
+        padding-top: 0;
         list-style: none;
         //width: 100%;
         float: left;
 
         li {
-            margin-bottom: 5px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid white;
+            float: left;
 
             span {
                 width: 100%;
                 float: left;
+            }
+
+            .date {
+                font-size: xx-small;
             }
         }
     }
