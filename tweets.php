@@ -3,12 +3,25 @@
     <ul>
         <?php
         $tweets = get_bikepolo_tag_tweets();
-        foreach ($tweets->results as $k=>$tweet)
+        foreach ($tweets->results as $k => $tweet)
         {
-            if($k>=5) break;
+            if ($k >= 5)
+                break;
+            $tweet_text = preg_replace("/(http:\/\/[^\s]+)/", "<a href=\"$1\">$1</a>", $tweet->text);
             ?>
             <li>
-                <span class="text"><?php echo $tweet->text; ?></span>
+                <span class="text">
+                    <a target="_blank" href="//twitter.com/<?php echo $tweet->from_user; ?>">
+                        <?php echo "@$tweet->from_user"; ?>
+                    </a>:
+                    <?php echo $tweet_text; ?>
+                </span>
+                <span class="date label label-inverse">
+                    Publicado el
+                    <a target="_blank" href="<?php echo "//twitter.com/$tweet->from_user/status/$tweet->id"; ?>">
+                        <?php echo date('d-m-Y', strtotime($tweet->created_at)); ?>
+                    </a>
+                </span>
             </li>
             <?php
         }
@@ -22,12 +35,21 @@
     <ul>
         <?php
         $tweets = get_stgobikepolo_tweets();
-        foreach ($tweets as $k=>$tweet)
+        foreach ($tweets as $k => $tweet)
         {
-            if($k>=5) break;
+            if ($k >= 5)
+                break;
             ?>
             <li>
-                <span class="text"><?php echo $tweet->text; ?></span>
+                <span class="text">
+                    <?php echo $tweet_text; ?>
+                </span>
+                <span class="date label label-inverse">
+                    Publicado el
+                    <a target="_blank" href="<?php echo "//twitter.com/$tweet->from_user/status/$tweet->id"; ?>">
+                        <?php echo date('d-m-Y', strtotime($tweet->created_at)); ?>
+                    </a>
+                </span>
             </li>
             <?php
         }
