@@ -39,6 +39,7 @@
         {
             if ($k >= 5)
                 break;
+            $tweet_text = preg_replace("/(http:\/\/[^\s]+)/", "<a href=\"$1\">$1</a>", $tweet->text);
             ?>
             <li>
                 <span class="text">
@@ -46,7 +47,7 @@
                 </span>
                 <span class="date label label-inverse">
                     Publicado el
-                    <a target="_blank" href="<?php echo "//twitter.com/$tweet->from_user/status/$tweet->id"; ?>">
+                    <a target="_blank" href="<?php echo "//twitter.com/StgoBikePolo/status/$tweet->id"; ?>">
                         <?php echo date('d-m-Y', strtotime($tweet->created_at)); ?>
                     </a>
                 </span>
