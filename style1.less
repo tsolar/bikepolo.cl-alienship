@@ -13,7 +13,18 @@
 article {
     .fondo_oscurito;
 }
+
+header {
+    hgroup {
+        height: 221px;
+        background-image: url("images/cabecera.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
 .tweets {
+    float: left;
     color: @color_fg;
     h3 {
         .fondo_oscurito;
@@ -25,9 +36,16 @@ article {
         .fondo_oscurito;
 
         list-style: none;
+        //width: 100%;
+        float: left;
 
         li {
             margin-bottom: 5px;
+
+            span {
+                width: 100%;
+                float: left;
+            }
         }
     }
 }
