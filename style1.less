@@ -3,7 +3,17 @@
 
 @fondo-oscurito:  fade(@color_bg, 50%);
 
+.rounded-corners (@radius: 8px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
 .fondo-oscurito {
+    .rounded-corners;
+
     background-color: @fondo-oscurito;
     color: @color_fg;
     margin: 0;
@@ -37,6 +47,7 @@ a {
 }
 
 .widget {
+    margin: 0;
     a {
         &:hover {
             background-color: transparent;
@@ -116,6 +127,8 @@ footer.entry-meta {
 
 #footer-container {
     .fondo-oscurito;
+
+    margin-bottom: 20px;
 
     ul {
         list-style: none;
