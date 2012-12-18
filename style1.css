@@ -1,0 +1,119 @@
+.fondo-oscurito {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+#content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  padding: 10px;
+  clear: both;
+}
+article {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+div.entry-content a img {
+  width: 98%;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+header hgroup {
+  height: 221px;
+  background-image: url("images/cabecera.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header hgroup h1,
+header hgroup h2,
+header hgroup p {
+  display: none;
+}
+.titulo {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  float: left;
+  border-radius: 25px 25px 0px 0px;
+  padding: 0 20px;
+}
+.titulo h3 {
+  margin: 0;
+}
+.titulo-blog {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  float: left;
+  border-radius: 25px 25px 0px 0px;
+  padding: 0 20px;
+}
+.titulo-blog h3 {
+  margin: 0;
+}
+.tweets {
+  float: left;
+  color: #ffffff;
+}
+.tweets h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  float: left;
+  border-radius: 25px 25px 0px 0px;
+  padding: 0 20px;
+}
+.tweets h3 h3 {
+  margin: 0;
+}
+.tweets ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  padding-top: 0;
+  list-style: none;
+  float: left;
+}
+.tweets ul li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
+  float: left;
+}
+.tweets ul li span {
+  float: left;
+}
+.tweets ul li .date {
+  font-size: xx-small;
+}
+footer.entry-meta {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  padding: 0;
+}
+#footer-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+#footer-container ul {
+  list-style: none;
+}
+#footer-container ul li {
+  margin: 5px;
+}
+#footer-container .icons {
+  float: right;
+  width: 90px;
+}
