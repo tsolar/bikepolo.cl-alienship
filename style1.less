@@ -27,11 +27,25 @@ div.entry-content {
         }
     }
 }
+
 a {
     &:hover {
         color: @color_fg;
         text-decoration: none;
+        background-color: transparent;
     }
+}
+
+.widget {
+    a {
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+.pager li > a:hover {
+    color: @color_bg;
 }
 
 header {
@@ -76,6 +90,7 @@ header {
         list-style: none;
         //width: 100%;
         float: left;
+        margin-bottom: 1.5em;
 
         li {
             margin-bottom: 15px;
@@ -110,8 +125,41 @@ footer.entry-meta {
         }
     }
 
+    a {
+        margin: 0;
+        padding: 0;
+    }
+
     .icons {
         float: right;
         width: 90px;
+    }
+}
+
+aside { 
+    .tweets;
+    margin-bottom: 0;
+}
+
+.widget_categories {
+    ul {
+        width: 100%;
+
+        li {
+            border: none;
+            float: none;
+        }
+    }
+}
+
+.widget_recent_entries {
+    ul {
+        //width: 100%;
+
+        li {
+            border: none;
+            float: none;
+            //padding: 0 40px 0 0;
+        }
     }
 }

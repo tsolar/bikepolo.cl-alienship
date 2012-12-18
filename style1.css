@@ -24,6 +24,13 @@ div.entry-content a img {
 a:hover {
   color: #ffffff;
   text-decoration: none;
+  background-color: transparent;
+}
+.widget a:hover {
+  background-color: transparent;
+}
+.pager li > a:hover {
+  color: #000000;
 }
 header hgroup {
   height: 221px;
@@ -84,6 +91,7 @@ header hgroup p {
   padding-top: 0;
   list-style: none;
   float: left;
+  margin-bottom: 1.5em;
 }
 .tweets ul li {
   margin-bottom: 15px;
@@ -113,7 +121,60 @@ footer.entry-meta {
 #footer-container ul li {
   margin: 5px;
 }
+#footer-container a {
+  margin: 0;
+  padding: 0;
+}
 #footer-container .icons {
   float: right;
   width: 90px;
+}
+aside {
+  float: left;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+aside h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  float: left;
+  border-radius: 25px 25px 0px 0px;
+  padding: 0 20px;
+}
+aside h3 h3 {
+  margin: 0;
+}
+aside ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  padding-top: 0;
+  list-style: none;
+  float: left;
+  margin-bottom: 1.5em;
+}
+aside ul li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
+  float: left;
+}
+aside ul li span {
+  float: left;
+}
+aside ul li .date {
+  font-size: xx-small;
+}
+.widget_categories ul {
+  width: 100%;
+}
+.widget_categories ul li {
+  border: none;
+  float: none;
+}
+.widget_recent_entries ul li {
+  border: none;
+  float: none;
 }

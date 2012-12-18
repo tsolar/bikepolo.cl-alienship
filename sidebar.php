@@ -12,7 +12,7 @@
   <div id="sidebar" class="<?php echo apply_filters( 'alienship_sidebar_container_class', 'span3' ); ?>">
     <?php include_once 'tweets.php'; ?>
     <?php do_action( 'alienship_sidebar_inside_before' ); ?>
-    <div id="secondary" class="<?php echo apply_filters( 'alienship_secondary_container_class', 'widget-area fondo-oscurito pull-left' ); ?>" role="complementary">
+    <!--<div id="secondary" class="<?php echo apply_filters( 'alienship_secondary_container_class', 'widget-area fondo-oscurito pull-left' ); ?>" role="complementary">-->
       <?php do_action( 'before_sidebar' ); ?>
       <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
@@ -37,7 +37,7 @@
         </aside>
 
       <?php endif; // end sidebar widget area ?>
-    </div><!-- #secondary .widget-area -->
+    <!--</div> #secondary .widget-area -->
     <?php do_action( 'alienship_sidebar_inside_after' ); ?>
   </div><!-- #sidebar -->
 <?php do_action( 'alienship_sidebar_after' ); ?>

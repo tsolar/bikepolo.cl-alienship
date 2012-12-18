@@ -15,10 +15,14 @@
       <div class="icons">
           <ul class="nav nav-pills">
               <li>
-                  <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/facebook.png" />
+                  <a href="//facebook.com/StgoBikePolo" target="_blank">
+                      <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/facebook.png" />
+                  </a>
               </li>
               <li>
-                  <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/twitter.png" />
+                  <a href="//twitter.com/StgoBikePolo" target="_blank">
+                      <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/twitter.png" />
+                  </a>
               </li>
               <li>
                   <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/instagram.png" />
