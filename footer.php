@@ -15,7 +15,7 @@
       <div class="icons">
           <ul class="nav nav-pills">
               <li>
-                  <a href="//facebook.com/StgoBikePolo" target="_blank">
+                  <a href="//facebook.com/SantiagoBikePolo" target="_blank">
                       <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/facebook.png" />
                   </a>
               </li>
