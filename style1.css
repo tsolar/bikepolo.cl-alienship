@@ -46,9 +46,6 @@ article {
   margin: 0;
   padding: 20px;
 }
-div.entry-content a img {
-  width: 98%;
-}
 a:hover {
   color: #ffffff;
   text-decoration: none;
