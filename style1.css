@@ -1,18 +1,46 @@
+.rounded-corners-but-top-left {
+  -webkit-border-radius: 0 8px 8px 8px;
+  -moz-border-radius: 0 8px 8px 8px;
+  -ms-border-radius: 0 8px 8px 8px;
+  -o-border-radius: 0 8px 8px 8px;
+  border-radius: 0 8px 8px 8px;
+}
 .fondo-oscurito {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
   padding: 20px;
 }
 #content {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
   padding: 20px;
+  -webkit-border-radius: 0 8px 8px 8px;
+  -moz-border-radius: 0 8px 8px 8px;
+  -ms-border-radius: 0 8px 8px 8px;
+  -o-border-radius: 0 8px 8px 8px;
+  border-radius: 0 8px 8px 8px;
   padding: 10px;
   clear: both;
+  margin-bottom: 10px;
 }
 article {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
@@ -25,6 +53,9 @@ a:hover {
   color: #ffffff;
   text-decoration: none;
   background-color: transparent;
+}
+.widget {
+  margin: 0;
 }
 .widget a:hover {
   background-color: transparent;
@@ -44,6 +75,11 @@ header hgroup p {
   display: none;
 }
 .titulo {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
@@ -56,6 +92,11 @@ header hgroup p {
   margin: 0;
 }
 .titulo-blog {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
@@ -72,6 +113,11 @@ header hgroup p {
   color: #ffffff;
 }
 .tweets h3 {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
@@ -84,11 +130,21 @@ header hgroup p {
   margin: 0;
 }
 .tweets ul {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
   padding: 20px;
-  padding-top: 0;
+  -webkit-border-radius: 0 8px 8px 8px;
+  -moz-border-radius: 0 8px 8px 8px;
+  -ms-border-radius: 0 8px 8px 8px;
+  -o-border-radius: 0 8px 8px 8px;
+  border-radius: 0 8px 8px 8px;
+  padding-top: 10px;
   list-style: none;
   float: left;
   margin-bottom: 1.5em;
@@ -110,10 +166,16 @@ footer.entry-meta {
   padding: 0;
 }
 #footer-container {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
   padding: 20px;
+  margin-bottom: 20px;
 }
 #footer-container ul {
   list-style: none;
@@ -135,6 +197,11 @@ aside {
   margin-bottom: 0;
 }
 aside h3 {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
@@ -147,11 +214,21 @@ aside h3 h3 {
   margin: 0;
 }
 aside ul {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   margin: 0;
   padding: 20px;
-  padding-top: 0;
+  -webkit-border-radius: 0 8px 8px 8px;
+  -moz-border-radius: 0 8px 8px 8px;
+  -ms-border-radius: 0 8px 8px 8px;
+  -o-border-radius: 0 8px 8px 8px;
+  border-radius: 0 8px 8px 8px;
+  padding-top: 10px;
   list-style: none;
   float: left;
   margin-bottom: 1.5em;
@@ -168,7 +245,7 @@ aside ul li .date {
   font-size: xx-small;
 }
 .widget_categories ul {
-  width: 100%;
+  width: 82%;
 }
 .widget_categories ul li {
   border: none;

@@ -11,6 +11,10 @@
   border-radius: @radius;
 }
 
+.rounded-corners-but-top-left {
+    .rounded-corners(0 8px 8px 8px);
+}
+
 .fondo-oscurito {
     .rounded-corners;
 
@@ -22,8 +26,11 @@
 
 #content {
     .fondo-oscurito;
+    .rounded-corners-but-top-left;
     padding: 10px;
     clear: both;
+
+    margin-bottom: 10px;
 }
 
 article {
@@ -96,8 +103,9 @@ header {
 
     ul {
         .fondo-oscurito;
+        .rounded-corners-but-top-left;
 
-        padding-top: 0;
+        padding-top: 10px;
         list-style: none;
         //width: 100%;
         float: left;
@@ -156,7 +164,7 @@ aside {
 
 .widget_categories {
     ul {
-        width: 100%;
+        width: 82%;
 
         li {
             border: none;
