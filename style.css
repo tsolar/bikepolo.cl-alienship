@@ -13,4 +13,5 @@ Version:        0.1.0
 
 body {
     background-image: url("images/fondo.jpg");
+    background-attachment: fixed;
 }

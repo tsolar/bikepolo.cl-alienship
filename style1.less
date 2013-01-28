@@ -1,7 +1,8 @@
-@color_bg: black;
+//@color_bg: black;
+@color_bg: #333;
 @color_fg: white;
 
-@fondo-oscurito:  fade(@color_bg, 50%);
+@fondo-oscurito:  fade(@color_bg, 75%);
 
 .rounded-corners (@radius: 8px) {
   -webkit-border-radius: @radius;
@@ -120,7 +121,7 @@ header {
 }
 
 footer.entry-meta {
-    background-color: fade(@color_fg, 80%);
+    background-color: #ccc; //fade(@color_fg, 80%);
     border: 0;
     padding: 0;
 }
@@ -173,6 +174,22 @@ aside {
             border: none;
             float: none;
             //padding: 0 40px 0 0;
+        }
+    }
+}
+
+.entry-title {
+    color: #f5f5f5
+}
+
+.entry-content {
+    a {
+        border: none;
+    }
+    .thumbnail {
+        img {
+            width: 95%;
+            border: none;
         }
     }
 }
