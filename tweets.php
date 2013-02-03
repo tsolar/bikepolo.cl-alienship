@@ -1,4 +1,4 @@
-<div class="tweets">
+<div class="tweets widget-izq">
     <h3>#bikepolo</h3>
     <ul>
         <?php

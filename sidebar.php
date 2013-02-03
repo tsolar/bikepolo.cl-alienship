@@ -9,8 +9,13 @@
 <?php if ( current_theme_supports( 'theme-layouts' ) && !is_admin() && 'layout-1c' !== theme_layouts_get_layout() || !current_theme_supports( 'theme-layouts' ) ) { ?>
 
 <?php do_action( 'alienship_sidebar_before' ); ?>
-  <div id="sidebar" class="<?php echo apply_filters( 'alienship_sidebar_container_class', 'span3' ); ?>">
+  <div id="sidebar" class="<?php echo apply_filters( 'alienship_sidebar_container_class', 'span4' ); ?>">
+    <!-- videos -->
+    <?php include_once 'videos.php'; ?>
+    
+    <!-- twitter -->
     <?php include_once 'tweets.php'; ?>
+    
     <?php do_action( 'alienship_sidebar_inside_before' ); ?>
     <div id="secondary" class="<?php echo apply_filters( 'alienship_secondary_container_class', 'widget-area pull-left' ); ?>" role="complementary">
       <?php do_action( 'before_sidebar' ); ?>
