@@ -16,22 +16,22 @@
           <ul class="nav nav-pills">
               <li>
                   <a href="//facebook.com/SantiagoBikePolo" target="_blank">
-                      <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/facebook.png" />
+                      <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/images/social/facebook.png" />
                   </a>
               </li>
               <li>
                   <a href="//twitter.com/StgoBikePolo" target="_blank">
-                      <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/twitter.png" />
+                      <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/images/social/twitter.png" />
                   </a>
               </li>
               <li>
                   <a href="http://instagram.com/stgo_bikepolo" target="_blank">
-                    <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/instagram.png" />
+                    <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/images/social/instagram.png" />
                   </a>
               </li>
               <li>
                   <a href="http://pinterest.com/stgobikepolo/" target="_blank">
-                    <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/pinterest.png" />
+                    <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/images/social/pinterest.png" />
                   </a>
               </li>
           </ul>
