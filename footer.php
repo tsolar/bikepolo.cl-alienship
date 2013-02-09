@@ -25,10 +25,14 @@
                   </a>
               </li>
               <li>
-                  <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/instagram.png" />
+                  <a href="http://instagram.com/stgo_bikepolo" target="_blank">
+                    <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/instagram.png" />
+                  </a>
               </li>
               <li>
-                  <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/pinterest.png" />
+                  <a href="http://pinterest.com/stgobikepolo/" target="_blank">
+                    <img alt="" src="<?php echo get_template_directory_uri().'-child'; ?>/icons/PNG/32px/pinterest.png" />
+                  </a>
               </li>
           </ul>
       </div>
