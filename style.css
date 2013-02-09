@@ -12,6 +12,6 @@ Version:        0.1.0
 @import url("style1.css"); /* generated with less */
 
 body {
-    background-image: url("images/fondo.jpg");
+    background-image: url("images/fondo_lite.jpg");
     background-attachment: fixed;
 }
